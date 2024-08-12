@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <body>
+            <script>
+                class Quadrilateral{
+                    constructor (h,w) {
+                        this.h=h;
+                        this.w=w;
+                }
+                field(x,y){
+                    return x*y;
+                }
+                circumference(a,b){
+                    return a*2+b*2;
+                }
+            }
+            var f=new Quadrilateral();
+            var c=new Quadrilateral();
+            h=prompt("Enter the height: ");
+            w=prompt("Enter the wide: ");
+            document.write("The field of quadrilateral is "+f.field(h,w)+"<br>");
+            document.write("The circumference of quadrilateral is "+c.circumference(h,w));
+            </script>
+        </body>
+    </head>
+</html>
